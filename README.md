@@ -1,4 +1,6 @@
 # ControllerSync
+<img width="1076" height="724" alt="image" src="https://github.com/user-attachments/assets/9b9953c2-9fae-4a0a-b6bd-f470f580b1a0" />
+
 
 ControllerSync is a Kubernetes custom controller that implements sharding to efficiently manage custom resources across multiple controller replicas. It uses a shard-based consistent hashing approach to distribute the workload evenly and ensure high availability.
 
