@@ -1,0 +1,32 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+- apiGroups:
+  - core.tbh.dev
+  resources:
+  - notifiers
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - core.tbh.dev
+  resources:
+  - notifiers/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - core.tbh.dev
+  resources:
+  - notifiers/status
+  verbs:
+  - get
+  - patch
+  - update

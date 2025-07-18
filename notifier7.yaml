@@ -1,0 +1,9 @@
+apiVersion: core.tbh.dev/v1
+kind: Notifier
+metadata:
+  name: notifier7
+  namespace: default
+spec:
+  message: "Hello from notifier7!"
+  target: "console7"
+  type: "error7"

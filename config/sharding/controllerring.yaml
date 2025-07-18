@@ -1,0 +1,8 @@
+apiVersion: sharding.timebertt.dev/v1alpha1
+kind: ControllerRing
+metadata:
+  name: notifier-ring
+spec:
+  resources:
+    - group: core.tbh.dev
+      resource: notifiers

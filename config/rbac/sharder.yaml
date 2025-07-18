@@ -1,0 +1,21 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: sharding:controllerring:notifier-ring
+rules:
+  - apiGroups: ["core.tbh.dev"]
+    resources: ["notifiers"]
+    verbs: ["list", "patch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: sharding:controllerring:notifier-ring
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: sharding:controllerring:notifier-ring
+subjects:
+  - kind: ServiceAccount
+    name: sharder
+    namespace: sharding-system

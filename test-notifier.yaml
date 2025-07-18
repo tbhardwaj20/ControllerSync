@@ -1,0 +1,8 @@
+apiVersion: core.tbh.dev/v1
+kind: Notifier
+metadata:
+  name: test-notifier
+spec:
+  message: "Hello!"
+  target: "console"
+  type: "info"

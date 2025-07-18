@@ -1,0 +1,9 @@
+apiVersion: core.tbh.dev/v1
+kind: Notifier
+metadata:
+  labels:
+    app.kubernetes.io/name: controllersync
+    app.kubernetes.io/managed-by: kustomize
+  name: notifier-sample
+spec:
+  # TODO(user): Add fields here

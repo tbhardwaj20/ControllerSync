@@ -1,0 +1,9 @@
+apiVersion: core.tbh.dev/v1
+kind: Notifier
+metadata:
+  name: notifier8
+  namespace: default
+spec:
+  message: "Hello from notifier8!"
+  target: "console8"
+  type: "error8"
