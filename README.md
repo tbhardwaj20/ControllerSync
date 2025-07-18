@@ -11,6 +11,7 @@ ControllerSync is a Kubernetes custom controller that implements sharding to eff
 - Works with custom `Notifier` resources  
 
 ## Architecture
+![Image (1)](https://github.com/user-attachments/assets/c9d1ce1b-b40d-40e9-aad3-087bcadda498)
 
 - **Custom Resource Definitions (CRDs):** Defines the `Notifier` resource managed by the controller.  
 - **Controller Rings:** Represents shards and manages resource assignment via consistent hashing.  
