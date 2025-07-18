@@ -73,7 +73,7 @@ make build
 Run tests and generate manifests as needed.
 
 ## License
-MIT License © 2025 Tushar Bhardwaj
+MIT License © 2025 [Tushar Bhardwaj](https://github.com/TuShArBhArDwA)
 
 This project was inspired by and based on the Kubernetes controller sharding concept to achieve scalable custom controllers.
 
