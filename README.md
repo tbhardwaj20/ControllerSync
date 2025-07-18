@@ -72,6 +72,9 @@ make build
 ```
 Run tests and generate manifests as needed.
 
+## References
+- [Kubernetes Controller Sharding](https://github.com/timebertt/kubernetes-controller-sharding)
+
 ## License
 MIT License © 2025 [Tushar Bhardwaj](https://github.com/TuShArBhArDwA)
 
