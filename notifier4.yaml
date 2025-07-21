@@ -1,9 +1,0 @@
-apiVersion: core.tbh.dev/v1
-kind: Notifier
-metadata:
-  name: test-notifier
-  namespace: default
-spec:
-  message: "Shard test message"
-  target: "log"
-  type: "info"

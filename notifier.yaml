@@ -1,9 +1,9 @@
 apiVersion: core.tbh.dev/v1
 kind: Notifier
 metadata:
-  name: notifier3
+  name: notifier
   namespace: default
 spec:
-  message: "Hello from notifier3!"
+  message: "Hello from notifier!"
   target: "console"
-  type: "error"
+  type: "good"

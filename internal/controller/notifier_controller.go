@@ -35,7 +35,7 @@ import (
 type NotifierReconciler struct {
 	client.Client
 	Scheme    *runtime.Scheme
-	ShardName string // ✅ Added ShardName field
+	ShardName string 
 }
 
 // +kubebuilder:rbac:groups=core.tbh.dev,resources=notifiers,verbs=get;list;watch;create;update;patch;delete
